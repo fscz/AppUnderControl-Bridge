@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "29D316349E3979B7A19549E2"
+               BlueprintIdentifier = "C96B7728E7F52EB5035B6D2B"
                BuildableName = "AppUnderControl_Bridge.framework"
                BlueprintName = "AppUnderControl-Bridge"
                ReferencedContainer = "container:Pods.xcodeproj">
