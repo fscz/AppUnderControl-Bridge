@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "AppUnderControl-Bridge"
+  s.name             = "AppUnderControl_Bridge"
   s.version          = "0.1.0"
   s.summary          = "A pod that provides library functions for applications that want to conform to the AppUnderControl Security Protocol"
 
