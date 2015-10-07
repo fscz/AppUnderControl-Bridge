@@ -42,7 +42,7 @@ This pod encapsulates all functionality needed by an application that aims to co
   }
   s.resources = 'Pod/'
 
-  s.preserve_path = 'Pod/modulemaps'
+  s.preserve_path = 'Pod/modulemaps/CommonCrypto/module.modulemap'
   s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PROJECT_DIR)/../../Pod/modulemaps' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
