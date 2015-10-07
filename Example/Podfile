@@ -1,5 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
+platform :ios, '9.0'
 
 target 'AppUnderControl-Bridge_Example', :exclusive => true do
   pod "AppUnderControl-Bridge", :path => "../"
@@ -7,6 +8,4 @@ end
 
 target 'AppUnderControl-Bridge_Tests', :exclusive => true do
   pod "AppUnderControl-Bridge", :path => "../"
-
-  
 end

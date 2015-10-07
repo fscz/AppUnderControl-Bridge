@@ -1,0 +1,33 @@
+{
+  "name": "AppUnderControl-Bridge",
+  "version": "0.1.0",
+  "summary": "A pod that provides library functions for applications that want to conform to the AppUnderControl Security Protocol",
+  "description": "AppUnderControl is a security protocl intended for enterprise iOS apps that require special permission to run. To this end an iOS Application 'AppUnderControl' witch a corresponding' WatchKit app is installed and a pairing between the two is created. Apps that conform to the security protocol ask 'AppUnderControl' for permission to run. The request is sent to the paired AppleWatch and needs to be accepted or declined from there. In case permission is granted the requesting application is notified, along with a security token. The original app must verify the delivered security token and may run only, if it is correct.\n\nThis pod encapsulates all functionality needed by an application that aims to conform to the protocol, namely:\n- call to ask for permission\n- listener for answer, along with token\n- verification of the delivered token\n- callback for successful verfification of token",
+  "homepage": "https://github.com/fscz/AppUnderControl-Bridge",
+  "license": "MIT",
+  "authors": {
+    "Fabian Schuetz": "fabian.m.schuetz@googlemail.com"
+  },
+  "source": {
+    "git": "https://github.com/fscz/AppUnderControl-Bridge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "AppUnderControl-Bridge": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(PROJECT_DIR)/../../Pod/modulemaps"
+  },
+  "dependencies": {
+    "SwiftyBase64": [
+
+    ]
+  }
+}

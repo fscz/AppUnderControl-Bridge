@@ -1,0 +1,17 @@
+PODS:
+  - AppUnderControl-Bridge (0.1.0):
+    - SwiftyBase64
+  - SwiftyBase64 (1.0.0)
+
+DEPENDENCIES:
+  - AppUnderControl-Bridge (from `../`)
+
+EXTERNAL SOURCES:
+  AppUnderControl-Bridge:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AppUnderControl-Bridge: f6b69386f0fe77ce30b6669ce64cb9a98c413d1d
+  SwiftyBase64: 24e797ff909b173d6fddd36f6099294b6882cab3
+
+COCOAPODS: 0.38.2

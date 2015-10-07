@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import AppUnderControl-Bridge
+import AppUnderControl_Bridge
 
 class Tests: XCTestCase {
     

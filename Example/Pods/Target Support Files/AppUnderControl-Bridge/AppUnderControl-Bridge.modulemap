@@ -1,0 +1,6 @@
+framework module AppUnderControl_Bridge {
+  umbrella header "AppUnderControl-Bridge-umbrella.h"
+
+  export *
+  module * { export * }
+}
