@@ -1,6 +1,8 @@
 PODS:
   - AppUnderControl-Bridge (0.1.0):
+    - CryptoSwift
     - SwiftyBase64
+  - CryptoSwift (0.0.16)
   - SwiftyBase64 (1.0.0)
 
 DEPENDENCIES:
@@ -11,7 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AppUnderControl-Bridge: f6b69386f0fe77ce30b6669ce64cb9a98c413d1d
+  AppUnderControl-Bridge: ef9d9f06d145314d6600f6f8ddb9ae3462e5eb2a
+  CryptoSwift: 05b7e813763fc7a0e8726e962365d6e09f091098
   SwiftyBase64: 24e797ff909b173d6fddd36f6099294b6882cab3
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0.rc.1

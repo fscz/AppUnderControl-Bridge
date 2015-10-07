@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6E8B7768150CD837DDE9CB98 /* Pods_AppUnderControl_Bridge_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBA0EED10B39300A033FFC6 /* Pods_AppUnderControl_Bridge_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		763D807022B541DF3751031B /* Pods_AppUnderControl_Bridge_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301AD644CCDE4071D80BEF9B /* Pods_AppUnderControl_Bridge_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E8B7768150CD837DDE9CB98 /* Pods_AppUnderControl_Bridge_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBA0EED10B39300A033FFC6 /* Pods_AppUnderControl_Bridge_Tests.framework */; };
+		763D807022B541DF3751031B /* Pods_AppUnderControl_Bridge_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301AD644CCDE4071D80BEF9B /* Pods_AppUnderControl_Bridge_Example.framework */; };
 		C3850D8F1BC51727009C271B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3850D8E1BC51727009C271B /* StartViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 

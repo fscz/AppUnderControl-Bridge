@@ -10,22 +10,23 @@ import WatchKit
 import Foundation
 import WatchConnectivity
 import SwiftyBase64
-import CommonCrypto
+import CryptoSwift
+//import CommonCrypto
 
 class TokenVerification {
     
-    /*
+    
     private class func sha256(data: NSData) -> NSData {
         return CryptoSwift.Hash.sha256(data).calculate()!
-    }*/
+    }
     
-    
+    /*
     private class func sha256(data : NSData) -> NSData {
         var hash = [UInt8](count: Int(CC_SHA256_DIGEST_LENGTH), repeatedValue: 0)
         CC_SHA256(data.bytes, CC_LONG(data.length), &hash)
         let res = NSData(bytes: hash, length: Int(CC_SHA256_DIGEST_LENGTH))
         return res
-    }
+    }*/
     
     
     private class func getStringForDate(date: NSDate) -> String {
