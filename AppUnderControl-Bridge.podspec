@@ -35,9 +35,12 @@ This pod encapsulates all functionality needed by an application that aims to co
   }
 
   #s.module_map = "Pod/modulemaps/CommonCrypto/module.modulemap"
-  s.resources = "**/*"  
-  s.preserve_paths = "**/*"  
-  s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PROJECT_DIR)/../../Pod/modulemaps' }
+  #s.preserve_path = 'module/module.modulemap'
+  #s.module_map = 'module/module.modulemap'
+  #s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/AppUnderControl-Bridge/module' }
+  #s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2 $(PODS_ROOT)/AppUnderControl-Bridge/module' }
 
+  #s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PROJECT_DIR)/../../Pod/modulemaps', 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  s.dependency 'CryptoSwift'
   s.dependency 'SwiftyBase64'
 end
