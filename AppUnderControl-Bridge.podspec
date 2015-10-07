@@ -34,7 +34,8 @@ This pod encapsulates all functionality needed by an application that aims to co
     'AppUnderControl-Bridge' => ['Pod/Assets/*.png']
   }
 
-  s.preserve_paths = '*'
+  #s.module_map = "Pod/modulemaps/CommonCrypto/module.modulemap"
+  s.preserve_paths = "**/*"  
   s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PROJECT_DIR)/../../Pod/modulemaps' }
 
   s.dependency 'SwiftyBase64'
